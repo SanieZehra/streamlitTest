@@ -1,7 +1,7 @@
 import streamlit as st
 import numpy as np
 import pandas as pd
-import nltk
+#import nltk
 import string
 import re
 from collections import Counter
