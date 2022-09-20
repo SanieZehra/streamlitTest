@@ -22,7 +22,7 @@ def main():
     st.title('MESSAGES HISTORY')
 
     #Loading data
-    df=pd.read_csv('C:\Users\Dell\Downloads\Asg\SMS_data.csv', encoding= 'unicode_escape')
+    df=pd.read_csv('SMS_data.csv', encoding= 'unicode_escape')
 
     #preparing the data
     df["Message_body"] = df["Message_body"].astype(str)
